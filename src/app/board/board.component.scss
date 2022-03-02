@@ -1,10 +1,11 @@
 main{
+  place-content: center;
   display: grid;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(3, 100px);
   grid-gap: 0;
 }
 
 app-square{
   border: 1px solid gray;
-  height: 200px;
+  height: 100px;
 }
